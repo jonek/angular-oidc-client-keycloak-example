@@ -1,9 +1,8 @@
 # angular-oidc-client-keycloak-example
 
-This project is a re-implemtation of the idea described in Scott Brady's blog post [SPA Authentiction using OpenID Connect, Angular CLI and oidc-client](https://www.scottbrady91.com/Angular/SPA-Authentiction-using-OpenID-Connect-Angular-CLI-and-oidc-client).
+This project is a re-implementation of the idea described in [Scott Brady's blog post](https://www.scottbrady91.com/Angular/SPA-Authentiction-using-OpenID-Connect-Angular-CLI-and-oidc-client).
+This project updates the example to a newer version of Angular and uses [Keycloak](https://www.keycloak.org) for authentication.
 It combines the [oidc-client-js](https://github.com/IdentityModel/oidc-client-js) library with a hello-world Angular single page application.
-
-I updated the example app described in the blog post slightly to fit the latest Angular release and adapted its configuration for [Keycloak](https://www.keycloak.org).
 
 In addition, it now also features a functional 'logout' button on the protected component.
 
